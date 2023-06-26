@@ -1,0 +1,15 @@
+{
+  "name": "sqlparser-js-darwin-universal",
+  "version": "0.0.0",
+  "os": [
+    "darwin"
+  ],
+  "main": "sqlparser-js.darwin-universal.node",
+  "files": [
+    "sqlparser-js.darwin-universal.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}

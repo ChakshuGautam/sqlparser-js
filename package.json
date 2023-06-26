@@ -1,0 +1,61 @@
+{
+  "name": "sqlparser-js",
+  "version": "0.0.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "napi": {
+    "name": "sqlparser-js",
+    "triples": {
+      "additional": [
+        "aarch64-apple-darwin",
+        "aarch64-linux-android",
+        "aarch64-unknown-linux-gnu",
+        "aarch64-unknown-linux-musl",
+        "aarch64-pc-windows-msvc",
+        "armv7-unknown-linux-gnueabihf",
+        "x86_64-unknown-linux-musl",
+        "x86_64-unknown-freebsd",
+        "i686-pc-windows-msvc",
+        "armv7-linux-androideabi",
+        "universal-apple-darwin"
+      ]
+    }
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@napi-rs/cli": "^2.16.1",
+    "ava": "^5.1.1"
+  },
+  "ava": {
+    "timeout": "3m"
+  },
+  "engines": {
+    "node": ">= 10"
+  },
+  "scripts": {
+    "artifacts": "napi artifacts",
+    "build": "napi build --platform --release",
+    "build:debug": "napi build --platform",
+    "prepublishOnly": "napi prepublish -t npm",
+    "test": "ava",
+    "universal": "napi universal",
+    "version": "napi version"
+  },
+  "packageManager": "yarn@3.6.0",
+  "optionalDependencies": {
+    "sqlparser-js-win32-x64-msvc": "0.0.0",
+    "sqlparser-js-darwin-x64": "0.0.0",
+    "sqlparser-js-linux-x64-gnu": "0.0.0",
+    "sqlparser-js-darwin-arm64": "0.0.0",
+    "sqlparser-js-android-arm64": "0.0.0",
+    "sqlparser-js-linux-arm64-gnu": "0.0.0",
+    "sqlparser-js-linux-arm64-musl": "0.0.0",
+    "sqlparser-js-win32-arm64-msvc": "0.0.0",
+    "sqlparser-js-linux-arm-gnueabihf": "0.0.0",
+    "sqlparser-js-linux-x64-musl": "0.0.0",
+    "sqlparser-js-freebsd-x64": "0.0.0",
+    "sqlparser-js-win32-ia32-msvc": "0.0.0",
+    "sqlparser-js-android-arm-eabi": "0.0.0",
+    "sqlparser-js-darwin-universal": "0.0.0"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "sqlparser-js-android-arm-eabi",
+  "version": "0.0.0",
+  "os": [
+    "android"
+  ],
+  "cpu": [
+    "arm"
+  ],
+  "main": "sqlparser-js.android-arm-eabi.node",
+  "files": [
+    "sqlparser-js.android-arm-eabi.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}
