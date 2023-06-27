@@ -4,3 +4,9 @@
 <br>
 
 > Node.js binding for [sqlparser-rs](https://github.com/sqlparser-rs/sqlparser-rs).
+
+## Installation
+
+```sh
+npm i sqlparser-js
+```
