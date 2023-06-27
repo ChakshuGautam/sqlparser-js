@@ -53,7 +53,6 @@
     "sqlparser-js-win32-arm64-msvc": "^0.0.1",
     "sqlparser-js-linux-arm-gnueabihf": "^0.0.1",
     "sqlparser-js-linux-x64-musl": "^0.0.1",
-    "sqlparser-js-freebsd-x64": "^0.0.1",
     "sqlparser-js-win32-ia32-msvc": "^0.0.1",
     "sqlparser-js-android-arm-eabi": "^0.0.1",
     "sqlparser-js-darwin-universal": "^0.0.1"
