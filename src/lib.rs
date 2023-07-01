@@ -7,11 +7,6 @@ use sqlparser::parser::Parser;
 extern crate napi_derive;
 
 #[napi]
-pub fn sum(a: i32, b: i32) -> i32 {
-  a + b
-}
-
-#[napi]
 pub fn sql_parse(query: String) -> String {
   let dialect = GenericDialect {};
   let ast = Parser::parse_sql(&dialect, &query).unwrap();
