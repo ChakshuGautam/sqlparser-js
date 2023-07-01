@@ -10,3 +10,12 @@
 ```sh
 npm i sqlparser-js
 ```
+
+## Example
+
+```javascript
+import sqlParse from "sqlparser-js";
+
+const query = "SELECT * FROM table_name";
+const parsedSQL = sqlParse(query); // Stringified JSON Object of AST
+```
