@@ -252,6 +252,6 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { sum } = nativeBinding
+const { sqlParse } = nativeBinding
 
-module.exports.sum = sum
+module.exports.sqlParse = sqlParse
