@@ -19,3 +19,9 @@ import sqlParse from "sqlparser-js";
 const query = "SELECT * FROM table_name";
 const parsedSQL = sqlParse(query); // Stringified JSON Object of AST
 ```
+
+## Contributing
+
+We would appreciate the contributions to this project from a wide audience and welcome everyone to learn and grow this project.
+
+Please check our [CONTRIBUTING.md](https://github.com/ChakshuGautam/sqlparser-js/blob/main/CONTRIBUTING.md) guidelines for making a contribution and follow the steps.
