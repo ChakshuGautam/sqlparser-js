@@ -252,7 +252,6 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { sqlParse, Parser } = nativeBinding
+const { Parser } = nativeBinding
 
-module.exports.sqlParse = sqlParse
 module.exports.Parser = Parser

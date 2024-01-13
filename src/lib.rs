@@ -6,14 +6,6 @@ use sqlparser::parser::Parser;
 #[macro_use]
 extern crate napi_derive;
 
-#[napi]
-pub fn sql_parse(query: String) -> String {
-  let dialect = GenericDialect {};
-  let ast = Parser::parse_sql(&dialect, &query).unwrap();
-  let json_str = serde_json::to_string(&ast).unwrap();
-  json_str
-}
-
 #[napi(js_name = "Parser")]
 pub struct ParserWrapper {}
 
